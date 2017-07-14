@@ -1,0 +1,4 @@
+#! /bin/sh
+/root/apache-cassandra-3.9/bin/cassandra -R >> naresh.txt
+tail -f naresh.txt
+#waitpid()
